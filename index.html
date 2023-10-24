@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Le Rappresentanti 2023/2024</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="icon" href="image/pif-removebg-preview-modified.png">
+</head>
+<body>
+    <header>
+        <div class="profile-image">
+            <img src="image/pif-removebg-preview-modified.png" alt="Foto Profilo">
+        </div>
+        <h1>Le Rappresentanti 2023/2024</h1>
+    </header>
+
+    <nav>
+        <ul>
+            <li class="social-icon"><a href="https://www.instagram.com/_.la_.lucry_/"><i class="fab fa-youtube"></i></a></li>
+            <li><a href="#chi-siamo">Chi Siamo</a></li>
+            <li><a href="#perche-votarci">Perché Votarci</a></li>
+            <li class="social-icon"><a href="https://www.instagram.com/_.la_.lucry_/"><i class="fab fa-instagram"></i></a></li>
+        </ul>
+    </nav>
+
+
+        <h2 class="accordion">Chi Siamo</h2>
+        <div class="content">
+            <p>Siamo felici di presentarvi due ragazze straordinarie che rappresentano il cuore di questo progetto. <br> Giulia e Lucrezia sono la personificazione di ispirazione, creatività e dedizione, principi fondamentali per tutto ciò che facciamo qui
+
+                Giulia è la mente curiosa dietro molte delle nostre idee più innovative. <br> La sua passione per l'apprendimento e la capacità di trasformare questa conoscenza in soluzioni creative hanno reso possibili molti dei nostri successi. È un'artista naturale, dotata di un talento innato per il design e la comunicazione visiva. <br>
+                
+                Lucrezia è la forza motrice dell'azione. Il suo spirito instancabile e il suo impegno nella realizzazione dei progetti sono una fonte di ispirazione per tutto il team.<br> La sua leadership e il senso di giustizia guidano il nostro lavoro verso risultati significativi, facendo di lei una guida affidabile per tutti noi.
+                
+                Insieme, Giulia e Lucrezia formano un team imbattibile, capace di trasformare visioni in realtà. La loro amicizia alimenta la creatività e l'entusiasmo che si riflettono in ogni progetto condiviso su questo sito portfolio.
+                
+                Siamo grati per l'opportunità di condividere con voi le storie e i risultati resi possibili da Giulia e Lucrezia. Grazie per essere qui con noi in questa avventura. Per scoprire di più sulle nostre realizzazioni e progetti, creati con passione da Giulia e Lucrezia, vi invitiamo a esplorare il nostro sito portfolio. &#128640;</p>
+            
+        </div>
+
+        
+        <h2 class="accordion">Perché Votarci</h2>
+        <div class="content">
+            <p>Oggi desidero presentarvi Giulia e Lucrezia, due individui appassionati, dedicati e competenti. Ho avuto il privilegio di lavorare a stretto contatto con loro e sono convinto che siano la scelta giusta per rappresentarci.</p>
+
+            <p>Giulia è un genio creativo, in grado di risolvere problemi in modo innovativo, mentre Lucrezia è una leader carismatica che sa ispirare gli altri. Insieme, formano una squadra perfetta per affrontare sfide complesse.</p>
+            
+            <p>La loro amicizia si riflette nei progetti straordinari che realizzano. Hanno una visione chiara del futuro e portano nuove prospettive e freschezza come giovani leader.</p>
+            
+            <p>Vi incoraggio a votare per Giulia e Lucrezia. La loro passione, competenza, amicizia, visione e gioventù sono ciò di cui abbiamo bisogno per un futuro migliore. Grazie per il vostro sostegno e per contribuire a un futuro più luminoso.</p>
+            
+        </div>
+
+    <footer>
+        <p>&copy; 2023 Tutti i diritti riservati a De Martin Giulia</p>
+        <div class="collaborators">
+            <h3>Collaboratori:</h3>
+            <ul>
+                <li>Giuseppe Fattor: Realizzazione Sito, aiuto sviluppo</li>
+                <li>Alejandro Ongaro: Recording e Editing video, fornitura lato server</li>
+            </ul>
+        </div>
+    </footer>
+
+    <script>
+        var acc = document.getElementsByClassName("accordion");
+        var i;
+
+        for (i = 0; i < acc.length; i++) {
+        acc[i].addEventListener("click", function() {
+        this.classList.toggle("active");
+        var panel = this.nextElementSibling;
+        if (panel.style.maxHeight) {
+        panel.style.maxHeight = null;
+        } else {
+        panel.style.maxHeight = panel.scrollHeight + "px";
+        } 
+     } );
+}
+
+
+
+    </script>
+</body>
+</html>
